@@ -2,7 +2,7 @@
     "name": "azzmin/cakephp-altcha",
     "description": "Altcha proof-of-work spam protection for CakePHP 5",
     "type": "cakephp-plugin",
-    "license": "MIT",
+    "license": "Apache-2.0",
     "keywords": ["cakephp", "cakephp5", "altcha", "captcha", "spam", "antispam"],
     "authors": [
         {
