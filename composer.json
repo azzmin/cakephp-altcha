@@ -1,0 +1,35 @@
+{
+    "name": "azzmin/cakephp-altcha",
+    "description": "Altcha proof-of-work spam protection for CakePHP 5",
+    "type": "cakephp-plugin",
+    "license": "MIT",
+    "keywords": ["cakephp", "cakephp5", "altcha", "captcha", "spam", "antispam"],
+    "authors": [
+        {
+            "name": "Azzure Creative",
+            "homepage": "https://azzure-creative.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.1",
+        "cakephp/cakephp": "^5.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Altcha\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Altcha\\Test\\": "tests/"
+        }
+    },
+    "extra": {
+        "installer-name": "Altcha"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
