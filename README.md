@@ -102,4 +102,4 @@ No data sent to third parties. All computation happens in the browser.
 
 ## License
 
-MIT
+Apache-2.0
